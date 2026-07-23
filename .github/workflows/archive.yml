@@ -24,4 +24,4 @@ jobs:
     steps:
       - name: Save page to Wayback Machine
         run: |
-          curl -I "https://web.archive.org/save/https://icarcounseling.com/"
+          curl -L "https://web.archive.org/save/https://icarcounseling.com/"

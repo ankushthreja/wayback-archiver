@@ -2,6 +2,10 @@ name: Archive Website
 
 on:
   schedule:
+
+    # 9:30 PM IST
+    - cron: "0 16 * * *"
+
     # 11:30 PM IST
     - cron: "0 18 * * *"
 
